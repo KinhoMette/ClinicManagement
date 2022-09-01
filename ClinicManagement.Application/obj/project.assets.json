@@ -1,0 +1,95 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "ClinicManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/ClinicManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClinicManagement.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ClinicManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../ClinicManagement.Domain/ClinicManagement.Domain.csproj",
+      "msbuildProject": "../ClinicManagement.Domain/ClinicManagement.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "ClinicManagement.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\84961\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\84961\\source\\Apex\\ClinicManagement\\ClinicManagement.Application\\ClinicManagement.Application.csproj",
+      "projectName": "ClinicManagement.Application",
+      "projectPath": "C:\\Users\\84961\\source\\Apex\\ClinicManagement\\ClinicManagement.Application\\ClinicManagement.Application.csproj",
+      "packagesPath": "C:\\Users\\84961\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\84961\\source\\Apex\\ClinicManagement\\ClinicManagement.Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\84961\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.havan.com.br/nuget": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\84961\\source\\Apex\\ClinicManagement\\ClinicManagement.Domain\\ClinicManagement.Domain.csproj": {
+              "projectPath": "C:\\Users\\84961\\source\\Apex\\ClinicManagement\\ClinicManagement.Domain\\ClinicManagement.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
