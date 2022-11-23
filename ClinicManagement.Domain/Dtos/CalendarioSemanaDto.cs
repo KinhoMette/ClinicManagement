@@ -10,7 +10,7 @@ namespace ClinicManagement.Domain.Dtos
     {
         public int DiasNumero { get; set; }
         public string DiasExtenso { get; set; }
-        public List<Consultas> Consultas { get; set; }
+        public List<ConsultasDto> Consultas { get; set; }
         public int[] HorasLivres { get; set; }
     }
 }
